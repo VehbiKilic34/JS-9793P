@@ -1,0 +1,59 @@
+body {
+    background-image: url(/assets/relaxing-in-nature-2-1030x685.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(21, 21, 233);
+}
+
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.focus-body {
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.focus-body h1 {
+    font-size: 8rem;
+}
+
+.focus-body span{
+    font-weight: 900;
+    font-weight: bold;
+    font-size: 80px;
+    color: aliceblue;
+}
+
+audio{
+    display: none;
+}
+.focus-body button {
+    background-color: transparent;
+    color: white;
+    border: 10px solid white;
+    padding: 15px 25px;
+    border-radius: 48%;
+    margin-bottom: 50px;
+    font-size: 70px;
+    transition: all 0.3s ease;
+}
+.focus-body button:hover {
+    background-color: rgb(255, 255,255, 0.1);
+}
+
+.focus-body input{
+    margin: 50px;   
+}
+
+.icon-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 100px;
+}

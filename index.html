@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>JS-9793P</title>
+</head>
+
+<body>
+    <section>
+        <div class="focus-body">
+            <h1>FOCUS MODE</h1>
+            <h2>The phone distracted you <span id="count">0</span> times.</h2>
+            <button id="count-button">Click Here</button>
+            <div class="icon-buttons">
+            <i id="birdIcon" class="fa-solid fa-dove"></i>  
+            <audio id="birdaudioplay" controls>
+                <source src="/assets/burghrecords__birds-singing-forest-scotland(chosic.com).mp3" type="audio/mp3">
+            </audio>
+            <i id="rainIcon" class="fa-solid fa-cloud-rain"></i>
+            <audio id="rainaudioplay" controls>
+                <source src="/assets/Wind-in-tall-grass(chosic.com).mp3" type="audio/mp3">
+            </audio>
+            <i id="pianoIcon" class="fa-solid fa-headphones"></i>
+            <audio id="pianoaudioplay" controls>
+                <source src="/assets/Beautiful-Piano(chosic.com).mp3" type="audio/mp3">
+            </audio>
+            <i id="relaxIcon" class="fa-solid fa-leaf"></i>
+            <audio id="relaxaudioplay" controls>
+                <source src="/assets/Earl-Grey-chosic.com_.mp3" type="audio/mp3">
+            </audio>
+            </div>
+            <input id="volume-input" type="range">
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
